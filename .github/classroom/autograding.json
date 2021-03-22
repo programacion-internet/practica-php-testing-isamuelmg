@@ -3,11 +3,11 @@
     {
       "name": "Ejecución test",
       "setup": "",
-      "run": "vendor/bin/phpunit tests",
+      "run": "phpunit tests",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 1,
+      "timeout": 2,
       "points": 10
     }
   ]
