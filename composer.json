@@ -1,0 +1,8 @@
+{
+    "name": "samuelmg/practica-php",
+    "description": "Práctica simple de PHP",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "8.5"
+    }
+}
