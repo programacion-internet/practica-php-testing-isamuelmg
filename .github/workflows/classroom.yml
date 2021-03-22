@@ -7,5 +7,10 @@
         name: Autograding
         runs-on: ubuntu-latest
         steps:
-          - uses: actions/checkout@v2
-          - uses: education/autograding@v1
+        - name: Setup PHP
+          uses: shivammathur/setup-php@v2
+          with:
+            php-version: '7.3'
+
+        - uses: actions/checkout@v2
+        - uses: education/autograding@v1
