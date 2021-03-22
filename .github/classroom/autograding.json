@@ -3,7 +3,7 @@
     {
       "name": "test",
       "setup": "",
-      "run": "phpunit tests",
+      "run": "vendor/bin/phpunit tests",
       "input": "",
       "output": "",
       "comparison": "included",
