@@ -5,7 +5,7 @@
       "setup": "",
       "run": "vendor/bin/phpunit tests",
       "input": "",
-      "output": "All tests passed",
+      "output": "0",
       "comparison": "included",
       "timeout": 5,
       "points": 10
